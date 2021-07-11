@@ -97,7 +97,6 @@
 		14F8A298202E65C700175FDC /* Blue-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F8A28F202E65C700175FDC /* Blue-29@2x.png */; };
 		14F8A299202E65C700175FDC /* Blue-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F8A290202E65C700175FDC /* Blue-40@3x.png */; };
 		14F8A29A202E65C700175FDC /* Blue-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F8A291202E65C700175FDC /* Blue-76@2x.png */; };
-		15A2FD223558011BFDE03883 /* Pods_Rocket_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D870A8D54F5431A14607AE /* Pods_Rocket_ChatTests.framework */; };
 		33093DC5207C7EAF00DD81F6 /* ChatNotificationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33093DC4207C7EAF00DD81F6 /* ChatNotificationSpec.swift */; };
 		33093DC7207C900900DD81F6 /* NotificationManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33093DC6207C900900DD81F6 /* NotificationManagerSpec.swift */; };
 		33093DC9207C949C00DD81F6 /* NotificationViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33093DC8207C949C00DD81F6 /* NotificationViewControllerSpec.swift */; };
@@ -443,9 +442,12 @@
 		41FC9E0F209B469C00FED485 /* AutocompleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41AC3CD21DCC9873002DC39A /* AutocompleteCell.xib */; };
 		41FC9E10209B49B200FED485 /* ChatDirectMessageHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D894031F4EF65700E284D2 /* ChatDirectMessageHeaderCell.xib */; };
 		41FE55531F6038D60071E97A /* DatabaseManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE55521F6038D60071E97A /* DatabaseManagerSpec.swift */; };
+		5822C0C7E63F5725612D3C86 /* Pods_Rocket_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C24DD5966EFE04B5344195 /* Pods_Rocket_Chat.framework */; };
 		597ECBA21E3708A50041C5C5 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597ECBA11E3708A50041C5C5 /* DataExtension.swift */; };
 		597ECBA41E3708B10041C5C5 /* PushManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597ECBA31E3708B10041C5C5 /* PushManager.swift */; };
+		64DA07DF847021BAF9B62AF3 /* Pods_Rocket_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6B3AA3168EFCF81970B043 /* Pods_Rocket_ChatTests.framework */; };
 		68D186DF1ED9714F0030EE8C /* MessageURLSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D186DE1ED9714F0030EE8C /* MessageURLSpec.swift */; };
+		68EFB1011F47F34B4AF6C0CA /* Pods_Rocket_Chat_ShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909DE6D861ACAC604F5D03B7 /* Pods_Rocket_Chat_ShareExtension.framework */; };
 		7758A7641F8FA44400FAA244 /* PickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7758A7631F8FA44400FAA244 /* PickerViewDelegate.swift */; };
 		7798B4151F852B720074B2F4 /* SelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7798B4141F852B720074B2F4 /* SelectField.swift */; };
 		7798B4191F852D670074B2F4 /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7798B4181F852D670074B2F4 /* CustomField.swift */; };
@@ -456,7 +458,6 @@
 		77C2612D1F97453600724A1F /* SelectFieldSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2612A1F97453600724A1F /* SelectFieldSpec.swift */; };
 		77C2612E1F97453600724A1F /* TextFieldSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C2612B1F97453600724A1F /* TextFieldSpec.swift */; };
 		77CCB6BE1F8D0597004BBF67 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CCB6BD1F8D0597004BBF67 /* DictionaryExtensions.swift */; };
-		7DE1B07114BBD1D46E9CC71B /* Pods_Rocket_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5191CD6C53AEA006C82524 /* Pods_Rocket_Chat.framework */; };
 		80054CF11FD9505A00F5ECF9 /* SendMessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80054CF01FD9505A00F5ECF9 /* SendMessageRequest.swift */; };
 		80054CF31FD951B100F5ECF9 /* MessagesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80054CF21FD951B100F5ECF9 /* MessagesClient.swift */; };
 		80054CF51FD96AFE00F5ECF9 /* MessagesClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80054CF41FD96AFE00F5ECF9 /* MessagesClientSpec.swift */; };
@@ -667,7 +668,6 @@
 		80825F0D207EB2D800C477DE /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8067DAA5206D1883005E3369 /* APIResource.swift */; };
 		808792361FB145B200EFE77F /* PermissionManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808792351FB145B200EFE77F /* PermissionManagerSpec.swift */; };
 		808792381FB14B3300EFE77F /* PermissionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808792371FB14B3300EFE77F /* PermissionSpec.swift */; };
-		808D0146232C143A00C4BA28 /* Pods_Rocket_Chat_ShareExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D0145232C143A00C4BA28 /* Pods_Rocket_Chat_ShareExtension.framework */; };
 		808D0148232C26E500C4BA28 /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 808D0147232C26E500C4BA28 /* DifferenceKit.framework */; };
 		80977AB0204EE21F00C41435 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80213C0D1FE0639E00809E14 /* HTTPMethod.swift */; };
 		80977AB1204EE21F00C41435 /* VersionMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8013F8751FD6B5E000EE1A4E /* VersionMiddleware.swift */; };
@@ -997,7 +997,6 @@
 		0BC0E8602032DB20004BFAAF /* DrawingBrushColorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBrushColorSpec.swift; sourceTree = "<group>"; };
 		0BC0E8622032DD95004BFAAF /* DrawingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModel.swift; sourceTree = "<group>"; };
 		0BC0E8642032DF9B004BFAAF /* DrawingViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModelSpec.swift; sourceTree = "<group>"; };
-		0F5191CD6C53AEA006C82524 /* Pods_Rocket_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		140A95DD202F1E6F003FD564 /* ChangeAppIconViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAppIconViewModelSpec.swift; sourceTree = "<group>"; };
 		140A95E0202F526C003FD564 /* Drawing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Drawing.storyboard; sourceTree = "<group>"; };
 		140A95E3202F536D003FD564 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
@@ -1018,7 +1017,6 @@
 		14BAFADD20308EE50054A2E6 /* DrawingBrushWidthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBrushWidthViewController.swift; sourceTree = "<group>"; };
 		14BAFADF20308EF30054A2E6 /* DrawingBrushOpacityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBrushOpacityViewController.swift; sourceTree = "<group>"; };
 		14BAFAE120308F010054A2E6 /* DrawingBrushColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingBrushColorViewController.swift; sourceTree = "<group>"; };
-		14F7905B55B69407BBC02BC5 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.test.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.test.xcconfig"; sourceTree = "<group>"; };
 		14F8A213202E5CBD00175FDC /* Black-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-29@3x.png"; sourceTree = "<group>"; };
 		14F8A216202E5CBE00175FDC /* Black-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-76@2x.png"; sourceTree = "<group>"; };
 		14F8A217202E5CBE00175FDC /* Black-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-60@3x.png"; sourceTree = "<group>"; };
@@ -1073,6 +1071,9 @@
 		14F8A28F202E65C700175FDC /* Blue-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-29@2x.png"; sourceTree = "<group>"; };
 		14F8A290202E65C700175FDC /* Blue-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-40@3x.png"; sourceTree = "<group>"; };
 		14F8A291202E65C700175FDC /* Blue-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue-76@2x.png"; sourceTree = "<group>"; };
+		26DAFE4C7489FB0EAB82CD12 /* Pods-Rocket.Chat.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.test.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.test.xcconfig"; sourceTree = "<group>"; };
+		2D6B3AA3168EFCF81970B043 /* Pods_Rocket_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF266BEA15B35332332FF59 /* Pods-Rocket.ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.debug.xcconfig"; path = "Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		33093DC4207C7EAF00DD81F6 /* ChatNotificationSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNotificationSpec.swift; sourceTree = "<group>"; };
 		33093DC6207C900900DD81F6 /* NotificationManagerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManagerSpec.swift; sourceTree = "<group>"; };
 		33093DC8207C949C00DD81F6 /* NotificationViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewControllerSpec.swift; sourceTree = "<group>"; };
@@ -1124,7 +1125,6 @@
 		33FD181C20D253AE00380BEC /* BaseNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationBar.swift; sourceTree = "<group>"; };
 		33FE57E920E5A01400E5C548 /* UserDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailHeaderView.swift; sourceTree = "<group>"; };
 		35A203202022D3F900B4BE5A /* ChatMessageAttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageAttachmentView.swift; sourceTree = "<group>"; };
-		35AE3FC690B1D3DC4E9DE715 /* Pods-Rocket.ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		35BCD300201A57EA00B4BE5A /* Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ask.swift; sourceTree = "<group>"; };
 		35BCD302201A9FB800B4BE5A /* AskSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskSpec.swift; sourceTree = "<group>"; };
 		35C7D199202B130400B4BE5A /* RCDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCDateFormatter.swift; sourceTree = "<group>"; };
@@ -1441,15 +1441,14 @@
 		41FC9E07209B3A6300FED485 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 		41FC9E09209B3A9800FED485 /* MessageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageExtensions.swift; sourceTree = "<group>"; };
 		41FE55521F6038D60071E97A /* DatabaseManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManagerSpec.swift; sourceTree = "<group>"; };
-		5108B4F1453CB9F4E425E3F4 /* Pods-Rocket.Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.release.xcconfig"; sourceTree = "<group>"; };
-		58C7F7D8D91A05CA5D1C9FE0 /* Pods-Rocket.ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		454B76EF0165B7AB29FDAC58 /* Pods-Rocket.ChatTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.test.xcconfig"; path = "Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.test.xcconfig"; sourceTree = "<group>"; };
 		597ECBA01E3708980041C5C5 /* Rocket.Chat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rocket.Chat.entitlements; sourceTree = "<group>"; };
 		597ECBA11E3708A50041C5C5 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		597ECBA31E3708B10041C5C5 /* PushManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushManager.swift; sourceTree = "<group>"; };
-		5A633C5AF9C033AF48DB8EE0 /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		6787D07A45177F339DB234DD /* Pods_Rocket_Chat_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BEC347251AE18F5B098E97 /* Pods-Rocket.Chat.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.beta.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.beta.xcconfig"; sourceTree = "<group>"; };
 		68D186DE1ED9714F0030EE8C /* MessageURLSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageURLSpec.swift; sourceTree = "<group>"; };
-		68D870A8D54F5431A14607AE /* Pods_Rocket_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		724C009490B664D57937EF3E /* Pods-Rocket.Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.release.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.release.xcconfig"; sourceTree = "<group>"; };
+		72C24DD5966EFE04B5344195 /* Pods_Rocket_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7758A7631F8FA44400FAA244 /* PickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewDelegate.swift; sourceTree = "<group>"; };
 		7798B4141F852B720074B2F4 /* SelectField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectField.swift; sourceTree = "<group>"; };
 		7798B4181F852D670074B2F4 /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
@@ -1598,6 +1597,7 @@
 		8073719F1F96937100D53ADF /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		807371A11F96968C00D53ADF /* LoginServiceModelMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceModelMapping.swift; sourceTree = "<group>"; };
 		807371A51F96A4FF00D53ADF /* LoginServiceModelHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginServiceModelHandler.swift; sourceTree = "<group>"; };
+		8074D589A641D75D9B793F0C /* Pods-Rocket.ChatTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.beta.xcconfig"; path = "Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.beta.xcconfig"; sourceTree = "<group>"; };
 		8076FD9920484A6000114F28 /* SEStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEStore.swift; sourceTree = "<group>"; };
 		8076FD9F2048519D00114F28 /* AuthManagerSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManagerSocket.swift; sourceTree = "<group>"; };
 		8076FDA32048533000114F28 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
@@ -1652,7 +1652,6 @@
 		808792351FB145B200EFE77F /* PermissionManagerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManagerSpec.swift; sourceTree = "<group>"; };
 		808792371FB14B3300EFE77F /* PermissionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionSpec.swift; sourceTree = "<group>"; };
 		808D0143232C131300C4BA28 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		808D0145232C143A00C4BA28 /* Pods_Rocket_Chat_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Rocket_Chat_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		808D0147232C26E500C4BA28 /* DifferenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DifferenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80977AB5204EEF1E00C41435 /* SelectServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServer.swift; sourceTree = "<group>"; };
 		80977AB8204EFBCC00C41435 /* SENavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SENavigation.swift; sourceTree = "<group>"; };
@@ -1758,7 +1757,6 @@
 		80FA907C2057F4650069038F /* SubmitContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitContent.swift; sourceTree = "<group>"; };
 		80FE8DED206584EA0099170E /* SEFileDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SEFileDetailView.xib; sourceTree = "<group>"; };
 		80FE8DEF206587510099170E /* SEFileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFileDetailView.swift; sourceTree = "<group>"; };
-		81DE5CC08EFE20733A40A51E /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		848088BA204370E8005022E8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/RCEmojiKit.strings; sourceTree = "<group>"; };
 		848088BB204370E8005022E8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
 		848088BC204370E9005022E8 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/VoiceOver.strings; sourceTree = "<group>"; };
@@ -1770,7 +1768,8 @@
 		897083D21F8CF08100233561 /* FormTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormTableViewCell.swift; sourceTree = "<group>"; };
 		89AEB7F71F7D225D00112A09 /* RoomCreateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCreateRequest.swift; sourceTree = "<group>"; };
 		89AFF3C71F94374D00D07A30 /* NewRoomViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRoomViewControllerSpec.swift; sourceTree = "<group>"; };
-		931A9FDD60FB42509A0958F5 /* Pods-Rocket.ChatTests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.test.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.test.xcconfig"; sourceTree = "<group>"; };
+		909DE6D861ACAC604F5D03B7 /* Pods_Rocket_Chat_ShareExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_ShareExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951B7729A540905826E39B1A /* Pods-Rocket.Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.debug.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		990B4B632069DC9900999FE7 /* EditProfileTableViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewControllerSpec.swift; sourceTree = "<group>"; };
 		990FF6D520740C79007B4A53 /* RoomMentionsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMentionsRequest.swift; sourceTree = "<group>"; };
 		990FF6D7207438D4007B4A53 /* RoomMentionsRequestSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomMentionsRequestSpec.swift; sourceTree = "<group>"; };
@@ -1887,16 +1886,19 @@
 		99F41BCF20658C3400B240FC /* NewPasswordViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewModelSpec.swift; sourceTree = "<group>"; };
 		99F530A020D0F08A004EC060 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		99F8FAEC20B66F210025FEEF /* ImageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoordinator.swift; sourceTree = "<group>"; };
+		9EBF504A2EAEEB784483C1B6 /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.release.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 		A0FFC1601E8A9D8D00A1B5EA /* TintedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TintedTextField.swift; sourceTree = "<group>"; };
-		AAC8D92081FF042E089F3063 /* Pods-Rocket.Chat.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.beta.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.beta.xcconfig"; sourceTree = "<group>"; };
 		B5893BF31F6C4A5E00365768 /* UserReviewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserReviewManager.swift; sourceTree = "<group>"; };
 		B5893BF51F6C4B1D00365768 /* UserReviewManagerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewManagerSpec.swift; sourceTree = "<group>"; };
-		BCF38696E8EC385488688390 /* Pods-Rocket.Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		B919C4ACF59215D1434DD0D4 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.test.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.test.xcconfig"; sourceTree = "<group>"; };
+		C282797CC76CB4CBA659D302 /* Pods-Rocket.ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.release.xcconfig"; path = "Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		C525A3DB9FDABE896712DB14 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.beta.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.beta.xcconfig"; sourceTree = "<group>"; };
 		CAC887262240CD1E0079A7AD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/RCEmojiKit.strings"; sourceTree = "<group>"; };
 		CAC887272240CD1F0079A7AD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CAC887282240CD1F0079A7AD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/VoiceOver.strings"; sourceTree = "<group>"; };
 		CAC887292240CD1F0079A7AD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		CAC8872A2240CD1F0079A7AD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CF803FDF455EE70ABB3BBEBD /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.debug.xcconfig"; path = "Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		D10E9C191F643457007F1796 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		D10E9C1D1F643474007F1796 /* ChannelModelMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelModelMapping.swift; sourceTree = "<group>"; };
 		D10E9C211F643616007F1796 /* MentionModelMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionModelMapping.swift; sourceTree = "<group>"; };
@@ -1918,9 +1920,6 @@
 		D32E28231DFD86C300D6019C /* PersistencyCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyCoordinator.swift; sourceTree = "<group>"; };
 		D3CFAFBC1E907D8900BADC0A /* ChatMessageTextViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageTextViewModel.swift; sourceTree = "<group>"; };
 		DB926AFC21FA0AEE0046F53F /* ChatAnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAnnouncementView.swift; sourceTree = "<group>"; };
-		E05A718A50D61E3E547007AF /* Pods-Rocket.Chat.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.test.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat.test.xcconfig"; sourceTree = "<group>"; };
-		F87E8221BEB77AF190F06201 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.ShareExtension.beta.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.ShareExtension/Pods-Rocket.Chat.ShareExtension.beta.xcconfig"; sourceTree = "<group>"; };
-		FEDACA44BBB1C0633DEA6F3D /* Pods-Rocket.ChatTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.ChatTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests.beta.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1928,7 +1927,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE1B07114BBD1D46E9CC71B /* Pods_Rocket_Chat.framework in Frameworks */,
+				5822C0C7E63F5725612D3C86 /* Pods_Rocket_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1936,7 +1935,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A2FD223558011BFDE03883 /* Pods_Rocket_ChatTests.framework in Frameworks */,
+				64DA07DF847021BAF9B62AF3 /* Pods_Rocket_ChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1952,7 +1951,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				808D0148232C26E500C4BA28 /* DifferenceKit.framework in Frameworks */,
-				808D0146232C143A00C4BA28 /* Pods_Rocket_Chat_ShareExtension.framework in Frameworks */,
+				68EFB1011F47F34B4AF6C0CA /* Pods_Rocket_Chat_ShareExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2012,11 +2011,10 @@
 			isa = PBXGroup;
 			children = (
 				808D0147232C26E500C4BA28 /* DifferenceKit.framework */,
-				808D0145232C143A00C4BA28 /* Pods_Rocket_Chat_ShareExtension.framework */,
 				808D0143232C131300C4BA28 /* DifferenceKit.framework */,
-				0F5191CD6C53AEA006C82524 /* Pods_Rocket_Chat.framework */,
-				68D870A8D54F5431A14607AE /* Pods_Rocket_ChatTests.framework */,
-				6787D07A45177F339DB234DD /* Pods_Rocket_Chat_ShareExtension.framework */,
+				72C24DD5966EFE04B5344195 /* Pods_Rocket_Chat.framework */,
+				909DE6D861ACAC604F5D03B7 /* Pods_Rocket_Chat_ShareExtension.framework */,
+				2D6B3AA3168EFCF81970B043 /* Pods_Rocket_ChatTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2187,6 +2185,25 @@
 				14F8A28D202E65C600175FDC /* Blue-83.5@2x.png */,
 			);
 			path = Blue;
+			sourceTree = "<group>";
+		};
+		2FE05279D8973FAF99D9CC40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				951B7729A540905826E39B1A /* Pods-Rocket.Chat.debug.xcconfig */,
+				26DAFE4C7489FB0EAB82CD12 /* Pods-Rocket.Chat.test.xcconfig */,
+				724C009490B664D57937EF3E /* Pods-Rocket.Chat.release.xcconfig */,
+				68BEC347251AE18F5B098E97 /* Pods-Rocket.Chat.beta.xcconfig */,
+				CF803FDF455EE70ABB3BBEBD /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */,
+				B919C4ACF59215D1434DD0D4 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */,
+				9EBF504A2EAEEB784483C1B6 /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */,
+				C525A3DB9FDABE896712DB14 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */,
+				2DF266BEA15B35332332FF59 /* Pods-Rocket.ChatTests.debug.xcconfig */,
+				454B76EF0165B7AB29FDAC58 /* Pods-Rocket.ChatTests.test.xcconfig */,
+				C282797CC76CB4CBA659D302 /* Pods-Rocket.ChatTests.release.xcconfig */,
+				8074D589A641D75D9B793F0C /* Pods-Rocket.ChatTests.beta.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		33230AAF20EA6A970031C71D /* Theme */ = {
@@ -3065,12 +3082,12 @@
 			isa = PBXGroup;
 			children = (
 				106DAA428B5BF7289FB70C65 /* Frameworks */,
-				EE693BBD0CC2727847214E2D /* Pods */,
 				41DF76E01D2C50710028DBF8 /* Products */,
 				41DF76E11D2C50710028DBF8 /* Rocket.Chat */,
 				807FB5592046E7DD00E21429 /* Rocket.Chat.ShareExtension */,
 				41DF76F61D2C50720028DBF8 /* Rocket.ChatTests */,
 				41DF77011D2C50720028DBF8 /* Rocket.ChatUITests */,
+				2FE05279D8973FAF99D9CC40 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4308,25 +4325,6 @@
 			path = Chat;
 			sourceTree = "<group>";
 		};
-		EE693BBD0CC2727847214E2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BCF38696E8EC385488688390 /* Pods-Rocket.Chat.debug.xcconfig */,
-				5108B4F1453CB9F4E425E3F4 /* Pods-Rocket.Chat.release.xcconfig */,
-				58C7F7D8D91A05CA5D1C9FE0 /* Pods-Rocket.ChatTests.debug.xcconfig */,
-				35AE3FC690B1D3DC4E9DE715 /* Pods-Rocket.ChatTests.release.xcconfig */,
-				AAC8D92081FF042E089F3063 /* Pods-Rocket.Chat.beta.xcconfig */,
-				FEDACA44BBB1C0633DEA6F3D /* Pods-Rocket.ChatTests.beta.xcconfig */,
-				5A633C5AF9C033AF48DB8EE0 /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */,
-				81DE5CC08EFE20733A40A51E /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */,
-				F87E8221BEB77AF190F06201 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */,
-				E05A718A50D61E3E547007AF /* Pods-Rocket.Chat.test.xcconfig */,
-				14F7905B55B69407BBC02BC5 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */,
-				931A9FDD60FB42509A0958F5 /* Pods-Rocket.ChatTests.test.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -4334,15 +4332,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41DF77071D2C50720028DBF8 /* Build configuration list for PBXNativeTarget "Rocket.Chat" */;
 			buildPhases = (
-				20AE8DAFB4777EAD4A9DBA91 /* [CP] Check Pods Manifest.lock */,
+				DA852BC36B72C0E16D09D5AC /* [CP] Check Pods Manifest.lock */,
 				D37272A11E13E60E00A25E1A /* SwiftLint */,
 				41DF76DB1D2C50710028DBF8 /* Sources */,
 				41DF76DC1D2C50710028DBF8 /* Frameworks */,
 				41DF76DD1D2C50710028DBF8 /* Resources */,
 				807FB5672046E7DD00E21429 /* Embed App Extensions */,
 				805378D121344458004A3D16 /* Validate Strings */,
-				9590906DA2061D8E1FBCD596 /* [CP] Embed Pods Frameworks */,
 				41EFB5C721D3AA6F006C10AC /* Remove Simulator architectures from WebRTC and JitsiMeet frameworks */,
+				74401FD8CB903F291F891C85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4358,13 +4356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41DF770A1D2C50720028DBF8 /* Build configuration list for PBXNativeTarget "Rocket.ChatTests" */;
 			buildPhases = (
-				37A12832FCABEE937B91E416 /* [CP] Check Pods Manifest.lock */,
-				F0237DBB56B21F1F60250436 /* [CP] Check Pods Manifest.lock */,
+				1C2716E568F99FB1AB6BBB9C /* [CP] Check Pods Manifest.lock */,
 				41DF76EF1D2C50720028DBF8 /* Sources */,
 				41DF76F01D2C50720028DBF8 /* Frameworks */,
 				41DF76F11D2C50720028DBF8 /* Resources */,
-				DC24B2F8EF9BED399B024C23 /* [CP] Embed Pods Frameworks */,
-				DEFA8FD3D3E972322218FB03 /* 📦 Embed Pods Frameworks */,
+				F4A9F93446BBF3DD79BDF982 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -4398,7 +4394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807FB5662046E7DD00E21429 /* Build configuration list for PBXNativeTarget "Rocket.Chat.ShareExtension" */;
 			buildPhases = (
-				B1F628369682ADA8656A5D07 /* [CP] Check Pods Manifest.lock */,
+				83A484F05C0BEB2A3587E16B /* [CP] Check Pods Manifest.lock */,
 				807FB5542046E7DD00E21429 /* Sources */,
 				807FB5552046E7DD00E21429 /* Frameworks */,
 				807FB5562046E7DD00E21429 /* Resources */,
@@ -4424,8 +4420,9 @@
 				TargetAttributes = {
 					41DF76DE1D2C50710028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = XKR7SWUBC3;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -4446,19 +4443,21 @@
 					};
 					41DF76F21D2C50720028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = XKR7SWUBC3;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 41DF76DE1D2C50710028DBF8;
 					};
 					41DF76FD1D2C50720028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = XKR7SWUBC3;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 41DF76DE1D2C50710028DBF8;
 					};
 					807FB5572046E7DD00E21429 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = XKR7SWUBC3;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4705,34 +4704,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		20AE8DAFB4777EAD4A9DBA91 /* [CP] Check Pods Manifest.lock */ = {
+		1C2716E568F99FB1AB6BBB9C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat-checkManifestLockResult.txt",
+			outputFileListPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		37A12832FCABEE937B91E416 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Rocket.ChatTests-checkManifestLockResult.txt",
 			);
@@ -4755,21 +4740,7 @@
 			shellPath = /bin/sh;
 			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\necho \"Removing unused architectures from JitsiMeet and WebRTC\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind -E \"$APP_PATH\" -regex '.*/(JitsiMeet|WebRTC)\\.framework' -type d | while read -r FRAMEWORK\ndo\n  FRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\n  FRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\n  echo \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\n  EXTRACTED_ARCHS=()\n\n  for ARCH in $ARCHS\n  do\n    echo \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\n    lipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\n    EXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\n  done\n\n  echo \"Merging extracted architectures: ${ARCHS}\"\n  lipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\n  rm \"${EXTRACTED_ARCHS[@]}\"\n\n  echo \"Replacing original executable with thinned version\"\n  rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n  mv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\ndone\n";
 		};
-		805378D121344458004A3D16 /* Validate Strings */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Validate Strings";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Scripts/Localize.swift\n";
-		};
-		9590906DA2061D8E1FBCD596 /* [CP] Embed Pods Frameworks */ = {
+		74401FD8CB903F291F891C85 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4787,8 +4758,6 @@
 				"${BUILT_PRODUCTS_DIR}/1PasswordExtension/OnePasswordExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/JitsiMeet.framework",
-				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/WebRTC.framework",
 				"${BUILT_PRODUCTS_DIR}/MobilePlayer/MobilePlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
@@ -4800,6 +4769,8 @@
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 				"${BUILT_PRODUCTS_DIR}/semver/semver.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/JitsiMeetSDK/JitsiMeetSDK.framework/JitsiMeetSDK",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/WebRTC/WebRTC.framework/WebRTC",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -4814,8 +4785,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OnePasswordExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeet.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobilePlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
@@ -4827,22 +4796,42 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/semver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeetSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rocket.Chat/Pods-Rocket.Chat-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B1F628369682ADA8656A5D07 /* [CP] Check Pods Manifest.lock */ = {
+		805378D121344458004A3D16 /* Validate Strings */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+			);
+			name = "Validate Strings";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Scripts/Localize.swift\n";
+		};
+		83A484F05C0BEB2A3587E16B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.ShareExtension-checkManifestLockResult.txt",
 			);
@@ -4865,7 +4854,29 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${CONFIGURATION}\" = \"Debug\" ]; then\n    \"${PODS_ROOT}/SwiftLint/swiftlint\"\nfi\n";
 		};
-		DC24B2F8EF9BED399B024C23 /* [CP] Embed Pods Frameworks */ = {
+		DA852BC36B72C0E16D09D5AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A9F93446BBF3DD79BDF982 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -4923,36 +4934,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEFA8FD3D3E972322218FB03 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rocket.ChatTests/Pods-Rocket.ChatTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0237DBB56B21F1F60250436 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -5918,6 +5899,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -5943,17 +5925,19 @@
 		};
 		33A37DF420EAB7E9004014B6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E05A718A50D61E3E547007AF /* Pods-Rocket.Chat.test.xcconfig */;
+			baseConfigurationReference = 26DAFE4C7489FB0EAB82CD12 /* Pods-Rocket.Chat.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Rocket.Chat/External/JitsiMeet",
@@ -5965,61 +5949,68 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.5.2;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D TEST";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios.9wick.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Test;
 		};
 		33A37DF520EAB7E9004014B6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14F7905B55B69407BBC02BC5 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */;
+			baseConfigurationReference = B919C4ACF59215D1434DD0D4 /* Pods-Rocket.Chat.ShareExtension.test.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.5.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.9wick.com.Rocket-Chat-ShareExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Rocket_Chat-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Test;
 		};
 		33A37DF620EAB7E9004014B6 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 931A9FDD60FB42509A0958F5 /* Pods-Rocket.ChatTests.test.xcconfig */;
+			baseConfigurationReference = 454B76EF0165B7AB29FDAC58 /* Pods-Rocket.ChatTests.test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket.Chat.app/Rocket.Chat";
@@ -6029,12 +6020,17 @@
 		33A37DF720EAB7E9004014B6 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = Rocket.Chat;
 			};
@@ -6075,6 +6071,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -6133,6 +6130,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -6152,17 +6150,19 @@
 		};
 		41DF77081D2C50720028DBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCF38696E8EC385488688390 /* Pods-Rocket.Chat.debug.xcconfig */;
+			baseConfigurationReference = 951B7729A540905826E39B1A /* Pods-Rocket.Chat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Rocket.Chat/External/JitsiMeet",
@@ -6173,30 +6173,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.5.2;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios.9wick.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		41DF77091D2C50720028DBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5108B4F1453CB9F4E425E3F4 /* Pods-Rocket.Chat.release.xcconfig */;
+			baseConfigurationReference = 724C009490B664D57937EF3E /* Pods-Rocket.Chat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Rocket.Chat/External/JitsiMeet",
@@ -6207,27 +6209,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.5.2;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios.9wick.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
 		41DF770B1D2C50720028DBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58C7F7D8D91A05CA5D1C9FE0 /* Pods-Rocket.ChatTests.debug.xcconfig */;
+			baseConfigurationReference = 2DF266BEA15B35332332FF59 /* Pods-Rocket.ChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket.Chat.app/Rocket.Chat";
@@ -6236,16 +6243,21 @@
 		};
 		41DF770C1D2C50720028DBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35AE3FC690B1D3DC4E9DE715 /* Pods-Rocket.ChatTests.release.xcconfig */;
+			baseConfigurationReference = C282797CC76CB4CBA659D302 /* Pods-Rocket.ChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket.Chat.app/Rocket.Chat";
@@ -6255,12 +6267,17 @@
 		41DF770E1D2C50720028DBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = Rocket.Chat;
 			};
@@ -6269,12 +6286,17 @@
 		41DF770F1D2C50720028DBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = Rocket.Chat;
 			};
@@ -6315,6 +6337,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -6334,17 +6357,19 @@
 		};
 		41E69F0520050A310040ADB2 /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAC8D92081FF042E089F3063 /* Pods-Rocket.Chat.beta.xcconfig */;
+			baseConfigurationReference = 68BEC347251AE18F5B098E97 /* Pods-Rocket.Chat.beta.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Rocket.Chat/External/JitsiMeet",
@@ -6355,27 +6380,32 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.5.2;
 				OTHER_SWIFT_FLAGS = "$(inherited) -D BETA";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios.9wick.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
-				VALID_ARCHS = arm64;
 			};
 			name = Beta;
 		};
 		41E69F0620050A310040ADB2 /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEDACA44BBB1C0633DEA6F3D /* Pods-Rocket.ChatTests.beta.xcconfig */;
+			baseConfigurationReference = 8074D589A641D75D9B793F0C /* Pods-Rocket.ChatTests.beta.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket.Chat.app/Rocket.Chat";
@@ -6385,12 +6415,17 @@
 		41E69F0720050A310040ADB2 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.Rocket-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_VERSION = 4.2;
 				TEST_TARGET_NAME = Rocket.Chat;
 			};
@@ -6398,96 +6433,102 @@
 		};
 		807FB5632046E7DD00E21429 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A633C5AF9C033AF48DB8EE0 /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */;
+			baseConfigurationReference = CF803FDF455EE70ABB3BBEBD /* Pods-Rocket.Chat.ShareExtension.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.5.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.9wick.com.Rocket-Chat-ShareExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Rocket_Chat-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		807FB5642046E7DD00E21429 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81DE5CC08EFE20733A40A51E /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */;
+			baseConfigurationReference = 9EBF504A2EAEEB784483C1B6 /* Pods-Rocket.Chat.ShareExtension.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.5.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.9wick.com.Rocket-Chat-ShareExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Rocket_Chat-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
 		807FB5652046E7DD00E21429 /* Beta */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F87E8221BEB77AF190F06201 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */;
+			baseConfigurationReference = C525A3DB9FDABE896712DB14 /* Pods-Rocket.Chat.ShareExtension.beta.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 262;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 3.5.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.9wick.com.Rocket-Chat-ShareExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Rocket_Chat-Swift.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = arm64;
 			};
 			name = Beta;
 		};

@@ -18,7 +18,7 @@ def diff_pods
 end
 
 def jitsi_pods
-  pod 'JitsiMeetSDK'
+  pod 'JitsiMeetSDK', '~>3.6.0'
 end
 
 def shared_pods

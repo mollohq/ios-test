@@ -69,7 +69,7 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.5.2):
     - GoogleUtilities/Logger
-  - JitsiMeetSDK (2.7.0)
+  - JitsiMeetSDK (3.6.0)
   - MBProgressHUD (1.2.0)
   - MobilePlayer (1.4.0)
   - nanopb (0.3.9011):
@@ -111,7 +111,7 @@ DEPENDENCIES:
   - Fabric
   - Firebase/Core
   - FLEX (~> 2.0)
-  - JitsiMeetSDK
+  - JitsiMeetSDK (~> 3.6.0)
   - MBProgressHUD
   - MobilePlayer (from `https://github.com/RocketChat/RCiOSMobilePlayer`)
   - Nuke
@@ -188,9 +188,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   1PasswordExtension: f97cc80ae58053c331b2b6dc8843ba7103b33794
-  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
   DifferenceKit: 516f12e336ed65a3a0665847b5c3cb5cad4bd4ea
-  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
   Firebase: 32f9520684e87c7af3f0704f7f88042626d6b536
   FirebaseAnalytics: 83f822fd0d33a46f49f89b8c3ab16ab4d89df08a
   FirebaseCore: 9aca0f1fffb405176ba15311a5621fcde4106fcf
@@ -203,7 +203,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 6ffa4dd0b6d547f8d27b91bd92fa9e197a3f5f1f
   GoogleDataTransportCCTSupport: 12f02e5c8f09c055615de90bcd5ba2c375546051
   GoogleUtilities: ad0f3b691c67909d03a3327cc205222ab8f42e0e
-  JitsiMeetSDK: e09c2864b89fb3ac5f6733f6f85218bccb2c50be
+  JitsiMeetSDK: 476329f72a866f714d2802bafe1729de6d644ccf
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MobilePlayer: 6c1df67588b247f80554ba60e67734215ab31a87
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
@@ -223,6 +223,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
 
-PODFILE CHECKSUM: b10caf0bb2791a9d36dbf06be978f728fdcadbf5
+PODFILE CHECKSUM: acbb8df7011d871b79e4e88fe11b8c16ae9573e9
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.10.1
