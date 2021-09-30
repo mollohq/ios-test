@@ -129,7 +129,7 @@ DEPENDENCIES:
   - SwipeCellKit
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - 1PasswordExtension
     - Crashlytics
     - DifferenceKit
@@ -223,6 +223,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
 
-PODFILE CHECKSUM: 1fb10b39ab70791993c9455a488608c7b2ff9de0
+PODFILE CHECKSUM: 265e5c7a0fffc694c5b75168acb2f016d76b5778
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

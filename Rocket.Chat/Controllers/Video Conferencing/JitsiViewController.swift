@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import JitsiMeet
+import JitsiMeetSDK
 
 final class JitsiViewController: UIViewController {
 
