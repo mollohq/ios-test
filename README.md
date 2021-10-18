@@ -1,6 +1,3 @@
-# IMPORTANT:   PLEASE READ THIS FIRST
-
-Rocket.Chat mobile is [moving to React Native](https://rocket.chat/2019/10/11/moving-mobile-apps-to-react/).   Development on this repository by Rocket.Chat has now ceased.   If your team is interested in taking over and maintaining this iOS native client repository then please [contact us](https://rocket.chat/contact).
 
 # Legacy Rocket.Chat iOS native application
 
