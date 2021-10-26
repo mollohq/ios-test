@@ -32,6 +32,19 @@ final class ChatTitleView: UIView {
             typingLabel.text = ""
         }
     }
+    
+    @IBOutlet weak var stsOnline: UILabel!
+    
+    var avatarView = AvatarView()
+    @IBOutlet weak var avatarViewContainer: UIView! {
+        didSet {
+            avatarViewContainer.layer.cornerRadius = 10.0
+            avatarViewContainer.clipsToBounds = true
+            avatarView.clipsToBounds = true
+            avatarView.frame = avatarViewContainer.bounds
+            avatarViewContainer.addSubview(avatarView)
+        }
+    }
 
     var isTitleHidden: Bool {
         get {
@@ -39,11 +52,11 @@ final class ChatTitleView: UIView {
         }
 
         set {
-            viewStatus.isHidden = newValue
+            viewStatus.isHidden = true//newValue
             titleScrollView.isHidden = newValue
             titleLabel.isHidden = newValue
             titleImage.isHidden = newValue
-            showInfoImage.isHidden = newValue
+            showInfoImage.isHidden = true//newValue
         }
     }
 
@@ -101,6 +114,8 @@ final class ChatTitleView: UIView {
             titleImage.image = image
             viewStatus.isHidden = true
         }
+        viewStatus.isHidden = true
+        titleImage.isHidden = true
     }
 
     internal func updateConnectionState(isRequestingMessages: Bool = false) {

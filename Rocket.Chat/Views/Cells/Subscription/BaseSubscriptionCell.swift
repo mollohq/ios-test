@@ -18,16 +18,21 @@ class BaseSubscriptionCell: SwipeTableViewCell, SubscriptionCellProtocol {
     internal let selectedBackgroundColor = #colorLiteral(red: 0.4980838895, green: 0.4951269031, blue: 0.5003594756, alpha: 0.19921875)
     internal let highlightedBackgroundColor = #colorLiteral(red: 0.4980838895, green: 0.4951269031, blue: 0.5003594756, alpha: 0.09530179799)
 
+    
+    
+    
     var subscription: Subscription.UnmanagedType? {
         didSet {
             updateSubscriptionInformation()
         }
     }
-
+    
     @IBOutlet weak var viewStatus: UIView! {
         didSet {
             viewStatus.backgroundColor = .RCInvisible()
             viewStatus.layer.masksToBounds = true
+            viewStatus.layer.borderWidth = 1.0
+            viewStatus.layer.borderColor = UIColor.white.cgColor
             viewStatus.layer.cornerRadius = 5
         }
     }
@@ -35,9 +40,10 @@ class BaseSubscriptionCell: SwipeTableViewCell, SubscriptionCellProtocol {
     var avatarView = AvatarView()
     @IBOutlet weak var avatarViewContainer: UIView! {
         didSet {
-            avatarViewContainer.layer.cornerRadius = 4
-            avatarViewContainer.layer.masksToBounds = true
-
+            avatarViewContainer.layer.cornerRadius = 15.0
+//            avatarViewContainer.layer.masksToBounds = true
+            avatarViewContainer.clipsToBounds = true
+            avatarView.clipsToBounds = true
             avatarView.frame = avatarViewContainer.bounds
             avatarViewContainer.addSubview(avatarView)
         }
@@ -142,7 +148,7 @@ class BaseSubscriptionCell: SwipeTableViewCell, SubscriptionCellProtocol {
                 iconRoom.image = UIImage(named: "Cell Subscription Discussion")
             } else {
                 if subscription.type == .channel {
-                    iconRoom.image = UIImage(named: "Cell Subscription Hashtag")
+                    iconRoom.image = UIImage(named: "checkmark")
                 } else {
                     iconRoom.image = UIImage(named: "Cell Subscription Lock")
                 }

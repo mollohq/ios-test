@@ -14,10 +14,10 @@ final class SubscriptionCell: BaseSubscriptionCell {
 
     @IBOutlet weak var labelLastMessage: UILabel!
     @IBOutlet weak var labelDate: UILabel!
-
+    
+    
     override func prepareForReuse() {
         super.prepareForReuse()
-
         labelDate.text = nil
         labelLastMessage.text = nil
         labelName.text = nil
@@ -85,15 +85,41 @@ final class SubscriptionCell: BaseSubscriptionCell {
     func dateFormatted(date: Date) -> String {
         let calendar = NSCalendar.current
 
-        if calendar.isDateInYesterday(date) {
-            return localized("subscriptions.list.date.yesterday")
-        }
+//        if calendar.isDateInYesterday(date) {
+//            return localized("subscriptions.list.date.yesterday")
+//        }
+//
+//        if calendar.isDateInToday(date) {
+//            return RCDateFormatter.time(date)
+//        }
+        
+        return date.getElapsedInterval()
+//        return RCDateFormatter.date(date, dateStyle: .short)
+    }
+}
 
-        if calendar.isDateInToday(date) {
-            return RCDateFormatter.time(date)
+// MARK: Date extension
+extension Date {
+    func getElapsedInterval() -> String {
+        let interval = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: self, to: Date())
+        if let year = interval.year, year > 0 {
+            return year == 1 ? "\(year)" + " " + "year ago" :
+            "\(year)" + " " + "years ago"
+        } else if let month = interval.month, month > 0 {
+            return month == 1 ? "\(month)" + " " + "month ago" :
+            "\(month)" + " " + "months ago"
+        } else if let day = interval.day, day > 0 {
+            return day == 1 ? "\(day)" + " " + "day ago" :
+            "\(day)" + " " + "days ago"
+        } else if let hour = interval.hour, hour > 0 {
+            return hour == 1 ? "\(hour)" + " " + "hour ago" :
+            "\(hour)" + " " + "hours ago"
+        } else if let minute = interval.minute, minute > 0 {
+            return minute == 1 ? "\(minute)" + " " + "min ago" :
+            "\(minute)" + " " + "mins ago"
+        } else {
+            return "a moment ago"
         }
-
-        return RCDateFormatter.date(date, dateStyle: .short)
     }
 }
 

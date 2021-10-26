@@ -311,6 +311,7 @@ extension EmojiPicker: UITabBarDelegate {
 private class EmojiPickerSectionHeaderView: UICollectionReusableView {
     var textLabel: UILabel
     let screenWidth = UIScreen.main.bounds.width
+    let screenHeight = UIScreen.main.bounds.height
 
     override init(frame: CGRect) {
         textLabel = UILabel()

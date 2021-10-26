@@ -13,8 +13,8 @@ class ThemePreferenceCell: UITableViewCell {
     static let identifier = "ThemePreferenceCell"
     static let cellHeight: CGFloat = 78
 
-    let borderWidth: CGFloat = 1.0
-    let borderColor = #colorLiteral(red: 0.4980838895, green: 0.4951269031, blue: 0.5003594756, alpha: 0.1950449486).cgColor
+    let borderWidth1: CGFloat = 1.0
+    let borderColor1 = #colorLiteral(red: 0.4980838895, green: 0.4951269031, blue: 0.5003594756, alpha: 0.1950449486).cgColor
 
     var cellTheme: Theme? {
         didSet {
@@ -38,8 +38,8 @@ class ThemePreferenceCell: UITableViewCell {
         didSet {
             baseColorView.layer.cornerRadius = 4
             baseColorView.layer.masksToBounds = true
-            baseColorView.layer.borderWidth = borderWidth
-            baseColorView.layer.borderColor = borderColor
+            baseColorView.layer.borderWidth = borderWidth1
+            baseColorView.layer.borderColor = borderColor1
         }
     }
 
@@ -47,8 +47,8 @@ class ThemePreferenceCell: UITableViewCell {
         didSet {
             auxiliaryColorView.layer.cornerRadius = 4
             auxiliaryColorView.layer.masksToBounds = true
-            auxiliaryColorView.layer.borderWidth = borderWidth
-            auxiliaryColorView.layer.borderColor = borderColor
+            auxiliaryColorView.layer.borderWidth = borderWidth1
+            auxiliaryColorView.layer.borderColor = borderColor1
         }
     }
 

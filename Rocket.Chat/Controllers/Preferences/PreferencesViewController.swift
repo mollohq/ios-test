@@ -28,7 +28,7 @@ final class PreferencesViewController: BaseTableViewController {
 
     @IBOutlet weak var avatarViewContainer: UIView! {
         didSet {
-            avatarViewContainer.layer.cornerRadius = 4
+            avatarViewContainer.layer.cornerRadius = 32.0
             avatarView.frame = avatarViewContainer.bounds
             avatarViewContainer.addSubview(avatarView)
         }
@@ -36,7 +36,7 @@ final class PreferencesViewController: BaseTableViewController {
 
     lazy var avatarView: AvatarView = {
         let avatarView = AvatarView()
-        avatarView.layer.cornerRadius = 4
+        avatarView.layer.cornerRadius = 32.0
         avatarView.layer.masksToBounds = true
         return avatarView
     }()
@@ -158,17 +158,24 @@ final class PreferencesViewController: BaseTableViewController {
     }
 
     weak var shareAppCell: UITableViewCell?
+    var tabBarBottom = UITabBar()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = viewModel.title
 
         navigationItem.leftBarButtonItem?.accessibilityLabel = VOLocalizedString("auth.close.label")
+        self.view.backgroundColor = UIColor.white
     }
-
+            
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         updateUserInformation()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+//        setTabBar()
+//        addTabBarView()
     }
 
     @IBAction func buttonCloseDidPressed(_ sender: Any) {
@@ -176,6 +183,22 @@ final class PreferencesViewController: BaseTableViewController {
             UserReviewManager.shared.requestReview()
         }
     }
+    
+//    func setTabBar(){
+//
+//        let myTabBarItem1 = UITabBarItem(title: "", image: UIImage(named: "message_icon")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), selectedImage: UIImage(named: "chat")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal))
+//        let myTabBarItem2 = UITabBarItem(title: "", image: UIImage(named: "globe")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), selectedImage: UIImage(named: "globe_selected")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal))
+//        let myTabBarItem3 = UITabBarItem(title: "", image: UIImage(named: "user_icon")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), selectedImage: UIImage(named: "user_icon_selected")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal))
+//
+//        tabBarBottom.items = [myTabBarItem1, myTabBarItem2, myTabBarItem3]
+//    }
+//
+//    func addTabBarView(){
+//        let frame = self.view.safeAreaLayoutGuide.layoutFrame
+//        let customView = UIView(frame: CGRect(x: 0, y: frame.height - 49, width: frame.width, height: 49))
+//        customView.addSubview(tabBarBottom)
+//        self.view.addSubview(customView)
+//    }
 
     private func updateUserInformation() {
         avatarView.username = viewModel.user?.username
@@ -287,19 +310,23 @@ final class PreferencesViewController: BaseTableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.section == kSectionSettings {
-            didSelectSettingsCell(indexPath)
+//            didSelectSettingsCell(indexPath)
         } else if indexPath.section == kSectionInformation {
-            if indexPath.row == 0 {
+            cellLogoutDidPressed()
+//            if indexPath.row == 0 {
+//                cellTermsOfServiceDidPressed()
+//            }
+        } else if indexPath.section == kSectionAdministration {
+            if indexPath.row == 4 {
                 cellTermsOfServiceDidPressed()
             }
-        } else if indexPath.section == kSectionAdministration {
-            openAdminPanel()
+//            openAdminPanel()
         } else if indexPath.section == kSectionLogout {
-            cellLogoutDidPressed()
+//            cellLogoutDidPressed()
         } else if indexPath.section == kSectionFlex, indexPath.row == 0 {
-            #if BETA || DEBUG
-            FLEXManager.shared().showExplorer()
-            #endif
+//            #if BETA || DEBUG
+//            FLEXManager.shared().showExplorer()
+//            #endif
         }
 
         tableView.deselectRow(at: indexPath, animated: true)
@@ -369,4 +396,35 @@ extension PreferencesViewController: MFMailComposeViewControllerDelegate {
         dismiss(animated: true, completion: nil)
     }
 
+}
+
+
+extension UIView {
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+        }
+    }
+
+    @IBInspectable var borderWidth: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+
+    @IBInspectable var borderColor: UIColor? {
+        get {
+            let color = UIColor.init(cgColor: layer.borderColor!)
+            return color
+        }
+        set {
+            layer.borderColor = newValue?.cgColor
+        }
+    }
 }

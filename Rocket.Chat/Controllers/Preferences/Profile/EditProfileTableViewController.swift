@@ -22,41 +22,101 @@ final class EditProfileTableViewController: BaseTableViewController, MediaPicker
         }
     }
 
+    @IBOutlet weak var vwName: UIView! {
+        didSet {
+            vwName.clipsToBounds = true
+            vwName.layer.cornerRadius = 15.0
+            vwName.layer.borderColor = UIColor.RCButtonBorderGray().cgColor
+            vwName.layer.borderWidth = 1.0
+        }
+    }
     @IBOutlet weak var name: UITextField! {
         didSet {
             name.placeholder = viewModel.namePlaceholder
         }
     }
 
+    @IBOutlet weak var vwUsername: UIView! {
+        didSet {
+            vwUsername.clipsToBounds = true
+            vwUsername.layer.cornerRadius = 15.0
+            vwUsername.layer.borderColor = UIColor.RCButtonBorderGray().cgColor
+            vwUsername.layer.borderWidth = 1.0
+        }
+    }
     @IBOutlet weak var username: UITextField! {
         didSet {
             username.placeholder = viewModel.usernamePlaceholder
         }
     }
 
+    @IBOutlet weak var vwEmail: UIView! {
+        didSet {
+            vwEmail.clipsToBounds = true
+            vwEmail.layer.cornerRadius = 15.0
+            vwEmail.layer.borderColor = UIColor.RCButtonBorderGray().cgColor
+            vwEmail.layer.borderWidth = 1.0
+        }
+    }
     @IBOutlet weak var email: UITextField! {
         didSet {
             email.placeholder = viewModel.emailPlaceholder
         }
     }
 
+    @IBOutlet weak var vwPhoneNumber: UIView! {
+        didSet {
+            vwPhoneNumber.clipsToBounds = true
+            vwPhoneNumber.layer.cornerRadius = 15.0
+            vwPhoneNumber.layer.borderColor = UIColor.RCButtonBorderGray().cgColor
+            vwPhoneNumber.layer.borderWidth = 1.0
+        }
+    }
+    @IBOutlet weak var phoneNumber: UITextField! {
+        didSet {
+            
+        }
+    }
+    
     @IBOutlet weak var changeYourPassword: UILabel! {
         didSet {
             changeYourPassword.text = viewModel.changeYourPasswordTitle
         }
     }
-
+    
     @IBOutlet weak var avatarButton: UIButton! {
     didSet {
         avatarButton.accessibilityLabel = avatarButtonAccessibilityLabel
         }
     }
+    
+    @IBOutlet weak var lblDelete: UILabel! {
+        didSet {
+            lblDelete.textColor = UIColor(red: 182.0/255.0, green: 69.0/255.0, blue: 69.0/255.0, alpha: 1.0)
+        }
+    }
+    @IBOutlet weak var btnSave: UIButton! {
+        didSet {
+            btnSave.setTitleColor(UIColor.white, for: .normal)
+            btnSave.backgroundColor = UIColor(red: 35.0/255.0, green: 162.0/255.0, blue: 81.0/255.0, alpha: 1.0)
+            btnSave.layer.cornerRadius = 12.0
+            btnSave.clipsToBounds = true
+        }
+    }
+    
+    @IBOutlet weak var lblUpdateProPic: UILabel! {
+        didSet {
+//            lblUpdateProPic.textColor = .green
+        }
+    }
+    
+    
 
     var avatarView: AvatarView = {
         let avatarView = AvatarView()
         avatarView.isUserInteractionEnabled = false
         avatarView.translatesAutoresizingMaskIntoConstraints = false
-        avatarView.layer.cornerRadius = 15
+        avatarView.layer.cornerRadius = 32.0
         avatarView.layer.masksToBounds = true
 
         return avatarView
@@ -119,6 +179,8 @@ final class EditProfileTableViewController: BaseTableViewController, MediaPicker
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.backgroundColor = UIColor.white
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         tapGesture.cancelsTouchesInView = false
         tableView.addGestureRecognizer(tapGesture)
@@ -131,6 +193,7 @@ final class EditProfileTableViewController: BaseTableViewController, MediaPicker
         disableUserInteraction()
         setupAvatarButton()
         fetchUserData()
+//        createBottomSaveChangesButton()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -140,6 +203,14 @@ final class EditProfileTableViewController: BaseTableViewController, MediaPicker
 
     // MARK: Setup
 
+    func createBottomSaveChangesButton() {
+        let screenSize: CGRect = UIScreen.main.bounds
+        let myView = UIView(frame: CGRect(x: 0, y: screenSize.height - 80.0, width: screenSize.width, height: 80.0))
+        myView.backgroundColor = .green
+        self.view.bringSubviewToFront(myView)
+        self.view.addSubview(myView)
+    }
+    
     func setupAvatarButton() {
         avatarButton.addSubview(avatarView)
         avatarView.topAnchor.constraint(equalTo: avatarButton.topAnchor).isActive = true
@@ -521,7 +592,7 @@ final class EditProfileTableViewController: BaseTableViewController, MediaPicker
 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
-        case 1: return viewModel.profileSectionTitle
+        case 1: return "" //viewModel.profileSectionTitle
         default: return ""
         }
     }

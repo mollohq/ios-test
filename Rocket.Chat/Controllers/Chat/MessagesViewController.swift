@@ -533,27 +533,27 @@ final class MessagesViewController: RocketChatViewController, MessagesListProtoc
     // MARK: Navigation Buttons
 
     private func updateNavigationBarButtons() {
-        if subscription != nil {
-            let search = UIBarButtonItem(
-                image: UIImage(named: "Search"),
-                style: .done,
-                target: self,
-                action: #selector(showSearchMessages)
-            )
-            search.accessibilityLabel = VOLocalizedString("message.search.label")
-
-            let threads = UIBarButtonItem(
-                image: UIImage(named: "Threads"),
-                style: .done,
-                target: self,
-                action: #selector(buttonThreadsDidPressed)
-            )
-            threads.accessibilityLabel = VOLocalizedString("message.threads.label")
-
-            navigationItem.rightBarButtonItems = [search, threads]
-        } else {
-            navigationItem.rightBarButtonItem = nil
-        }
+//        if subscription != nil {
+//            let search = UIBarButtonItem(
+//                image: UIImage(named: "Search"),
+//                style: .done,
+//                target: self,
+//                action: #selector(showSearchMessages)
+//            )
+//            search.accessibilityLabel = VOLocalizedString("message.search.label")
+//
+//            let threads = UIBarButtonItem(
+//                image: UIImage(named: "Threads"),
+//                style: .done,
+//                target: self,
+//                action: #selector(buttonThreadsDidPressed)
+//            )
+//            threads.accessibilityLabel = VOLocalizedString("message.threads.label")
+//
+//            navigationItem.rightBarButtonItems = [search, threads]
+//        } else {
+//            navigationItem.rightBarButtonItem = nil
+//        }
 
         navigationItem.backBarButtonItem = UIBarButtonItem(
             title: "",

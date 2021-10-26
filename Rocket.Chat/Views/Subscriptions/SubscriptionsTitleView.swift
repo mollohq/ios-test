@@ -18,10 +18,12 @@ final class SubscriptionsTitleView: UIView {
 
     @IBOutlet weak var viewLoading: UIStackView!
     @IBOutlet weak var labelLoading: UILabel!
+    
 
     @IBOutlet weak var labelMessages: UILabel! {
         didSet {
-            labelMessages.text = localized("subscriptions.messages")
+//            labelMessages.text = localized("subscriptions.messages")
+            labelMessages.text = "Chats"
         }
     }
 

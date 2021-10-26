@@ -43,7 +43,30 @@ final class SubscriptionsViewController: BaseViewController {
             labelDirectory.text = localized("directory.title")
         }
     }
-
+    @IBOutlet weak var tabBarBottom: UITabBar! {
+        didSet {
+            tabBarBottom.delegate = self
+            tabBarBottom.selectedItem = tabBarBottom.items![0] as UITabBarItem
+            let myTabBarItem1 = (self.tabBarBottom.items?[0])! as UITabBarItem
+            myTabBarItem1.image = UIImage(named: "message_icon")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem1.selectedImage = UIImage(named: "chat")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem1.title = ""
+            myTabBarItem1.imageInsets = UIEdgeInsets(top: -2, left: -2, bottom: 2, right: 2)
+            
+            
+            let myTabBarItem2 = (self.tabBarBottom.items?[1])! as UITabBarItem
+            myTabBarItem2.image = UIImage(named: "globe")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem2.selectedImage = UIImage(named: "globe_selected")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem2.title = ""
+            myTabBarItem2.imageInsets = UIEdgeInsets(top: -2, left: -2, bottom: 2, right: 2)
+            
+            let myTabBarItem3 = (self.tabBarBottom.items?[2])! as UITabBarItem
+            myTabBarItem3.image = UIImage(named: "user_icon")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem3.selectedImage = UIImage(named: "user_icon_selected")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+            myTabBarItem3.title = ""
+            myTabBarItem3.imageInsets = UIEdgeInsets(top: -2, left: -2, bottom: 2, right: 2)
+        }
+    }
     weak var sortingView: SubscriptionsSortingView?
     weak var serversView: ServersListView?
     weak var titleView: SubscriptionsTitleView?
@@ -65,10 +88,11 @@ final class SubscriptionsViewController: BaseViewController {
     }
 
     override func viewDidLoad() {
-        setupSearchBar()
+//        setupSearchBar()
         setupTitleView()
         updateBackButton()
         startObservingKeyboard()
+        setNavigationButtons()
 
         super.viewDidLoad()
 
@@ -208,6 +232,19 @@ final class SubscriptionsViewController: BaseViewController {
         })
     }
 
+    func setNavigationButtons() {
+        let button = UIButton(type: UIButton.ButtonType.custom)
+        button.setImage(UIImage(named: "search"), for: .normal)
+        button.frame = CGRect(x: 0, y: 0, width: 10, height: 10)
+        let barButton = UIBarButtonItem(customView: button)
+        self.navigationItem.leftBarButtonItems = [barButton]
+        let buttonRight = UIButton(type: UIButton.ButtonType.custom)
+        buttonRight.setImage(UIImage(named: "plus"), for: .normal)
+        buttonRight.frame = CGRect(x: 0, y: 0, width: 10, height: 10)
+        let barButtonRight = UIBarButtonItem(customView: buttonRight)
+        self.navigationItem.rightBarButtonItems = [barButtonRight]
+    }
+    
     func setupSearchBar() {
         let searchController = UISearchController(searchResultsController: nil)
         searchController.obscuresBackgroundDuringPresentation = false
@@ -415,11 +452,11 @@ extension SubscriptionsViewController: UIViewControllerPreviewingDelegate {
 extension SubscriptionsViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 71
+        return 80.0
     }
 
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 71
+        return 80.0
     }
 
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -496,10 +533,13 @@ extension SubscriptionsViewController: UITableViewDelegate {
         guard let subscription = viewModel.subscriptionForRowAt(indexPath: indexPath)?.managedObject else { return }
 
         guard searchController?.searchBar.isFirstResponder == false else {
-            searchController?.searchBar.resignFirstResponder()
-            searchController?.dismiss(animated: false, completion: {
-                self.openChat(for: subscription)
-            })
+            
+            self.openChat(for: subscription)
+            
+//            searchController?.searchBar.resignFirstResponder()
+//            searchController?.dismiss(animated: false, completion: {
+//                self.openChat(for: subscription)
+//            })
 
             return
         }
@@ -681,6 +721,24 @@ extension SubscriptionsViewController {
     func selectPreviousRoom() {
         if let indexPath = tableView.indexPathsForSelectedRows?.first {
             selectRoomAt(viewModel.absoluteIndexForIndexPath(indexPath) - 1)
+        }
+    }
+}
+
+// MARK: TabBar action
+extension SubscriptionsViewController: UITabBarDelegate {
+    func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        let myTabBarItem1 = (self.tabBarBottom.items?[0])! as UITabBarItem
+        let myTabBarItem2 = (self.tabBarBottom.items?[1])! as UITabBarItem
+        let myTabBarItem3 = (self.tabBarBottom.items?[2])! as UITabBarItem
+        if item == myTabBarItem1 {
+            print("Chat")
+        }
+        else if item == myTabBarItem2 {
+            print("Globe")
+        }
+        else {
+            performSegue(withIdentifier: "Preferences", sender: nil)
         }
     }
 }

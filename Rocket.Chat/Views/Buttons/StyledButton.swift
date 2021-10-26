@@ -22,11 +22,11 @@ final class StyledButton: UIButton {
     var fontTraits: UIFontDescriptor.SymbolicTraits?
     var fontStyle: UIFont.TextStyle = .body
 
-    @IBInspectable var cornerRadius: CGFloat = 2
-    @IBInspectable var borderWidth: CGFloat = 1
+//    @IBInspectable var cornerRadius: CGFloat = 2
+//    @IBInspectable var borderWidth: CGFloat = 1
     @IBInspectable var buttonColorDisabled: UIColor = UIColor(red: 225/255, green: 229/255, blue: 232/255, alpha: 1)
     @IBInspectable var buttonColor: UIColor = UIColor.RCSkyBlue()
-    @IBInspectable var borderColor: UIColor = UIColor.RCSkyBlue()
+//    @IBInspectable var borderColor: UIColor = UIColor.RCSkyBlue()
     @IBInspectable var textColor: UIColor = UIColor.white
     @IBInspectable var styleRaw: Int = 0 {
         didSet {
@@ -75,7 +75,7 @@ final class StyledButton: UIButton {
             return
         }
 
-        layer.borderColor = borderColor.cgColor
+        layer.borderColor = UIColor.RCSkyBlue().cgColor
         layer.borderWidth = borderWidth
         setTitleColor(textColor, for: UIControl.State())
 
